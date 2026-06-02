@@ -10,3 +10,7 @@ terraform {
 provider "azurerm" {
   features{}
 }
+resource "azurerm_resource_group" "dilip" {
+  name = "diliprg"
+  location = "central india"
+}
