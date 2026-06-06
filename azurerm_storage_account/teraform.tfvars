@@ -1,3 +1,5 @@
+#terraform.tfvars
+
 routraystorage = {
   sa1 = {
     name     = "storagegold1"

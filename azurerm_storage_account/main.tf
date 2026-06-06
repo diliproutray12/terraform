@@ -1,3 +1,5 @@
+# main.tf
+
 resource "azurerm_storage_account" "storage" {
   for_each                 = var.routraystorage
   name                     = each.value.name
