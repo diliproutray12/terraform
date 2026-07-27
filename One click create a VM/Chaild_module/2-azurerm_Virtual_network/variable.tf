@@ -1,3 +1,0 @@
-variable "virtual_network" {
-  
-}
