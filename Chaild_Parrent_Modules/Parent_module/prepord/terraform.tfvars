@@ -3,6 +3,10 @@ resource_group = {
     name     = "niki-rg"
     location = "koreacentral"
   }
+  rg2 = {
+    name     = "niki-rg2"
+    location = "koreacentral"
+  }
 }
 virtual_network = {
   vnets = {
